@@ -1,0 +1,21 @@
+{
+    "name": "Theme Picker",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://*.google.com/",
+        "https://*.google.com/*"
+    ],
+    "permissions": [
+        "contextMenus",
+        "notifications",
+        "scripting",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
