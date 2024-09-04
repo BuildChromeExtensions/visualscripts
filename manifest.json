@@ -1,5 +1,6 @@
 {
     "name": "Theme Picker",
+    "description": "Change the background color and link color",
     "version": "1.0.0.0",
     "manifest_version": 3,
     "action": {
@@ -11,7 +12,6 @@
     ],
     "permissions": [
         "contextMenus",
-        "notifications",
         "scripting",
         "tabs"
     ],
