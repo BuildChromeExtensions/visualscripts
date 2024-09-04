@@ -46,30 +46,6 @@
 </head>
 
 <body>
-    <form>
-        <img src="icon.png" alt="Logo" />
-        <h1>Chrome Notifications</h1>
-        <input name="id" type="text" placeholder="Notification ID (Optional)" />
-        <input required name="title" type="text" placeholder="Title" maxlength="128" />
-        <input required name="message" type="text" placeholder="Message" maxlength="128" />
-        <input name="contextMessage" type="text" placeholder="Context Message  (Optional)" maxlength="128" />
-
-        <label for="progress">Progress</label>
-        <input id="progress" type="range" name="progress" min="0" value="30" max="100">
-
-        <input name="button1" type="text" placeholder="Button 1 Text (Optional)" maxlength="128" />
-        <input name="button2" type="text" placeholder="Button 2 Text (Optional)" maxlength="128" />
-
-        <select name="type" value="0">
-            <option disabled value="0">Select Type</option>
-            <option value="basic">Basic</option>
-            <option value="progress">Progress</option>
-            <option value="image">Image</option>
-            <option value="list">List</option>
-        </select>
-
-        <button>Show Notification</button>
-    </form>
     <script type="text/javascript" src="./popup.js"></script>
 </body>
 
